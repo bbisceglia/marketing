@@ -1,0 +1,6 @@
+From the optimizely people:
+rather than directly editing the html for that section, they basically added a "lookup" function to the code to replace the first question wherever it appeared:
+
+$('.step > label:eq(0)').text('Which best describes you?');
+
+They added this using the "<edit code>" button in the bottom right.
